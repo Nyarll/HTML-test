@@ -1,0 +1,54 @@
+
+* 
+{ 
+    margin: 0px; 
+    padding: 0px; 
+}
+
+html 
+{
+    background-color: #000;
+    line-height: initial;
+    margin: 0;
+    padding: 0;
+    background-image: url("dolly.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+/**/
+body 
+{
+	margin: 10% 15%;
+    font-size: 16px;
+    color: white;
+}
+
+div
+{
+	/*background-color: black;*/
+}
+/**/
+.main_text 
+{
+	margin: 10% 10%;
+	padding: 5em 5em;
+    line-height: 2em;
+    background-color: rgba(0,0,0,85%);
+}
+
+.main_text br 
+{
+    line-height: 5em;
+}
+
+.bibliographical_information
+{
+	background-color: rgba(0,0,0,75%);
+}
+
+.notation_notes
+{
+	background-color: rgba(0,0,0,75%);
+}
+/**/
