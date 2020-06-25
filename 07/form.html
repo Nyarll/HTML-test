@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>form</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<h1>フォーム</h1>
+		</header>
+
+		<div class="item">
+			<ul>
+				<li>■お名前</li>
+				<li>■性別</li>
+				<li>■メールアドレス</li>
+				<li>■どこからアクセスしていますか</li>
+				<li>■この商品はいかがでしたか？</li>
+				<li>■悪かった点を教えてください</li>
+				<li class="message">■一言だけメッセージを</li>
+			</ul>
+		</div>
+	<!---->
+	<form action="../postget.php" method="post">
+		<div class="inputform">
+			<ul>
+				<!-- 名前 -->
+				<li>
+					<input type="text" name="shimei">
+				</li>
+				
+				<!-- 性別 -->
+				<li>
+					<p class="checkbox">
+					<input type="radio" name="sex" value="male">男性
+					<input type="radio" name="sex" value="female">女性
+					</p>
+				</li>
+				
+				<!-- メールアドレス -->
+				<li><input type="text" name="mail"></li>
+
+				<!-- アクセス -->
+				<li>
+					<select name="access">
+						<option valut="none">--- 選択してください ---</option>
+						<option valut="home">自宅</option>
+						<option valut="school">学校</option>
+						<option valut="company">会社</option>
+						<option valut="mobile">モバイル</option>
+					</select>
+				</li>
+				
+				<!-- 評価 -->
+				<li>
+					<p class="checkbox">
+					<input type="radio" name="evaluation" value="good">良い
+					<input type="radio" name="evaluation" value="normal">ふつう
+					<input type="radio" name="evaluation" value="bad">悪い
+					</p>
+				</li>
+
+				<!-- 悪かった点 -->
+				<li>
+					<p class="checkbox">
+					<input type="radio" name="reflection" value="design">デザイン
+					<input type="radio" name="reflection" value="package">パッケージ
+					<input type="radio" name="reflection" value="price">価格
+					<input type="radio" name="reflection" value="performance">性能
+					</p>
+				</li>
+
+				<!-- 一言メッセージ -->
+				<li>
+					<textarea name="opinion"></textarea>
+				</li>
+			</ul>
+		</div>
+
+		<div class="send">
+			<button type="submit">送信</button>
+			<button type="reset">削除</button>
+		</div>
+	
+	</form>
+	<!---->
+	</div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:  border-box;
+}
+
+#wrap
+{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header
+{
+	height: 150px;
+	background-color: navy;
+	color: white;
+}
+
+header h1
+{
+	font-size: 1em;;
+}
+
+header p
+{
+	background-color: blue;
+	padding: 1em;
+	font-size: 20pt;
+}
+
+header ul
+{ 
+	padding-left: 2em;
+	list-style: none;
+}
+
+header li
+{
+	float: left;
+	margin-right: 2em;
+}
+
+section
+{
+	float: right;
+	width: 550px;
+}
+
+article
+{
+	margin: 1em 0.5em;
+}
+
+article h2
+{
+	border-bottom: 2px gray solid;
+}
+
+#sidebar
+{
+	width: 150px;
+	float: left;
+	display: block;
+}
+
+#sidebar h2
+{
+	margin-top: 1em;
+}
+
+footer 
+{
+	float: none;
+	clear: both;
+	text-align: center;
+	border-top: 2px gray solid;
+	padding: 0.5em;
+}

@@ -1,0 +1,22 @@
+h1
+{
+	margin: 2em;
+	padding: 2em;
+	border-style: solid;
+	border-color: rgb(0,255,0);
+	background-color: gray;
+	color: white;
+}
+
+p
+{
+	margin: 8em;
+	padding: 2em;
+	border-style: dotted;
+	background-color: orange;
+}
+
+.underline
+{
+	text-decoration: underline;
+}
